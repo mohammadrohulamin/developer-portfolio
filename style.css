@@ -2,12 +2,15 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-section{
+.flexble-container{
     display: flex;
     margin-bottom: 100px;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
 }
 .orange-color{
     color: orange;
@@ -23,7 +26,7 @@ h1{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    padding: 10px 40px;
+    padding: 5px 40px;
     border-radius: 10px;
     color: white;
     font-weight: 900;
@@ -37,4 +40,32 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 
+}
+.experinence-area{
+    padding-left: 15px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left ;
+} 
+.experinence-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 10px gray;
+    padding-left: 20px;
+    border-radius: 10px;
+
+}
+#web-dev-experience{
+    border-left: 7px solid ;
+    border-image: linear-gradient(blue, rgb(4, 189, 245));
+    border-image-slice: 1;
+}
+#full-dev-experience{
+    border-left: 7px solid ;
+    border-image: linear-gradient(red, rgb(224, 15, 243));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
